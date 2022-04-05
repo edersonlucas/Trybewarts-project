@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  border: 0;
+  cursor: url('varinhamao.png'), auto;
+}
+
+.modal-content {
+  color: white;
+  background-color: rgb(219, 82, 82);
+}
+
+#chamar-modal {
+  position: fixed;
+  opacity: 0;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+#botao-close {
+  color: black;
+  background-color: white;
+}
+
+body {
+  background-color: rgb(0, 18, 25);
+}
+
+@font-face {
+  font-family: harry;
+  src: url('HARRYP__.TTF');
+}
+
+.agreement-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contador {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(20, 122, 83);
+}
+
+.linha-some {
+  display: none;
+  width: 100%;
+}
+
+#house {
+  margin-left: 4px;
+  color: rgb(119, 118, 118);
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.rates-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rates {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-fluid {
+  margin-top: 9.375rem;
+  margin-bottom: 3rem;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 6px;
+}
+
+#trybewarts-header-title {
+  font-family: harry, sans-serif;
+  font-size: 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#casa-some {
+  display: none;
+  color: rgb(94, 94, 94);
+}
+
+#label-some {
+  display: none;
+  color: rgb(94, 94, 94);
+}
+
+.family-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.subject-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.magica {
+  display: flex;
+  justify-content: space-around;
+}
+
+.magica div {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+  align-items: center;
+  background-color: rgba(165, 165, 165, 0.475);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+.form-check-input:active {
+  transform: scale(1.9);
+}
+
+#harry {
+  position: fixed;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  height: 100%;
+}
+
+.trybewarts-header-logo {
+  width: 50px;
+}
+
+#label-content {
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+#label-family {
+  margin-bottom: 10px;
+}
+
+input , button {
+  border-radius: 5px;
+  font-size: small;
+  padding: 5px;
+  margin: 5px;
+}
+
+footer {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 6px;
+}
+
+hr {
+  border: 1px solid darkgray;
+  width: 400px;
+}
+
+@media screen and ( max-width : 1010px ) {
+
+  #trybewarts-forms-logo {
+    height: 350px;
+  }
+
+  .trybewarts-header-logo {
+    display: none;
+  }
+
+  #trybewarts-header-title {
+    margin-right: 5px;
+  }
+
+}
+
+@media screen and ( max-width : 815px ) {
+
+  main {
+    flex-direction: column;
+    position: relative;
+  }
+
+  body {
+    background-color: rgba(0, 18, 25, 0.808);
+  }
+
+  #harry {
+    display: none;
+  }
+
+  #evaluation-form {
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .form-result {
+    padding: 15px;
+  }
+
+  #trybewarts-forms-logo {
+    width: 100%;
+    position: absolute;
+    opacity: 0.1;
+    margin: auto;
+    height: auto;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(50, 167, 145);
+    align-items: center;
+    color: white;
+  }
+
+  .trybewarts-header-logo {
+    display: none;
+  }
+
+  #login-email , #login-password {
+    width: 11rem;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #label-some {
+    display: none;
+    color: rgb(94, 94, 94);
+  }
+
+  #casa-some {
+    display: none;
+    color: rgb(94, 94, 94);
+  }
+
+  .linha-some {
+    display: block;
+  }
+
+  .section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #label-content {
+    width: 120%;
+    margin-bottom: 10px;
+  }
+
+  .rates {
+    gap: 2px;
+  }
+
+}
+
+@media screen and ( max-width : 455px ) {
+
+  .trybewarts-login {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .container-fluid {
+    margin-top: 14rem;
+  }
+
+  #login-email , #login-password {
+    width: 96%;
+  }
+
+  .rates {
+    flex-wrap: wrap;
+  }
+
+}
